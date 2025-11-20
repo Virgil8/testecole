@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinguaNova – Cours de langues en ligne</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <div class="logo">lingua<span>nova</span></div>
+        <nav class="nav">
+          <button class="nav__burger" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav__links">
+            <li><a href="#cours">Cours</a></li>
+            <li><a href="#fonctionnement">Comment ça marche</a></li>
+            <li><a href="#enseignants">Enseignants</a></li>
+            <li><a href="#contact" class="nav__cta">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav__overlay" aria-hidden="true">
+        <ul class="nav__overlay-links">
+          <li><a href="#cours">Cours</a></li>
+          <li><a href="#fonctionnement">Comment ça marche</a></li>
+          <li><a href="#enseignants">Enseignants</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <p class="hero__eyebrow">École de langues en ligne</p>
+            <h1>Trouvez le professeur de langues idéal, en quelques clics.</h1>
+            <p class="hero__text">
+              Cambodgien, chinois, français, anglais : connectez vos élèves à des enseignants vérifiés, en visio ou en ligne.
+            </p>
+            <div class="hero__badges">
+              <span>🎓 Cours individuels & petits groupes</span>
+              <span>🌍 Professeurs natifs et bilingues</span>
+              <span>💻 100% à distance</span>
+            </div>
+          </div>
+          <div class="hero__card hero__card--search">
+            <h2>Commencez une recherche</h2>
+            <form class="search">
+              <label class="field">
+                <span>Que voulez-vous apprendre ?</span>
+                <input type="text" placeholder="Essayez “Cambodgien”, “Chinois”, “Anglais”…" />
+              </label>
+              <div class="search__chips">
+                <button type="button" class="chip">Cambodgien</button>
+                <button type="button" class="chip">Chinois</button>
+                <button type="button" class="chip">Français</button>
+                <button type="button" class="chip">Anglais</button>
+              </div>
+              <button type="button" class="btn btn--primary btn--full">Voir les professeurs disponibles</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="cours" class="section section--light">
+        <div class="section__inner">
+          <header class="section__header">
+            <h2>Des parcours clairs pour chaque langue</h2>
+            <p>Une structure que l’on pourra adapter précisément à votre approche pédagogique.</p>
+          </header>
+          <div class="grid grid--3">
+            <article class="card card--course">
+              <h3>Cambodgien (Khmer)</h3>
+              <p>Idéal pour débuter ou consolider les bases, avec un focus sur la pratique orale.</p>
+              <ul>
+                <li>Alphabet et prononciation</li>
+                <li>Situations du quotidien</li>
+                <li>Cours individuels ou en petits groupes</li>
+              </ul>
+            </article>
+            <article class="card card--course">
+              <h3>Chinois</h3>
+              <p>Parcours progressif inspiré du HSK, avec suivi des progrès et révisions régulières.</p>
+              <ul>
+                <li>Tons, caractères, compréhension orale</li>
+                <li>Préparation aux examens</li>
+                <li>Supports partagés en ligne</li>
+              </ul>
+            </article>
+            <article class="card card--course">
+              <h3>Français & anglais</h3>
+              <p>Perfectionnement scolaire, professionnel ou loisirs, selon les objectifs de l’élève.</p>
+              <ul>
+                <li>Grammaire & conversation</li>
+                <li>Préparation scolaire ou concours</li>
+                <li>Programmes personnalisés</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="fonctionnement" class="section">
+        <div class="section__inner">
+          <header class="section__header">
+            <h2>Un fonctionnement simple pour vos futurs élèves</h2>
+            <p>Le site pourra reprendre ce parcours en trois étapes très intuitives.</p>
+          </header>
+          <div class="steps">
+            <div class="step">
+              <div class="step__number">1</div>
+              <div>
+                <h3>Choix de la langue et du niveau</h3>
+                <p>L’élève filtre par langue, niveau, budget ou disponibilités.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step__number">2</div>
+              <div>
+                <h3>Découverte des professeurs</h3>
+                <p>Chaque enseignant dispose d’une fiche avec photo, présentation, langues parlées et avis.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step__number">3</div>
+              <div>
+                <h3>Réservation d’un cours</h3>
+                <p>Un système de demande ou de réservation permet de choisir un créneau et de confirmer le cours.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="enseignants" class="section section--light">
+        <div class="section__inner">
+          <header class="section__header">
+            <h2>Quelques exemples de professeurs</h2>
+            <p>Les vraies fiches enseignants seront adaptées à vos contenus, vos langues et vos tarifs.</p>
+          </header>
+          <div class="grid grid--3 grid--teachers">
+            <article class="card card--teacher">
+              <div class="teacher__photo">
+                <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Professeure de khmer">
+              </div>
+              <div class="teacher__body">
+                <h3>Sokha • Cambodgien</h3>
+                <p>Professeure de khmer pour débutants, spécialisée dans la communication du quotidien.</p>
+                <ul>
+                  <li>Cours en visio</li>
+                  <li>Français / khmer</li>
+                  <li>Idéal pour démarrer la langue</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card card--teacher">
+              <div class="teacher__photo">
+                <img src="https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Enseignant de chinois">
+              </div>
+              <div class="teacher__body">
+                <h3>Li Wei • Chinois</h3>
+                <p>Enseignant expérimenté, préparation HSK et projets d’études en Chine ou à Taïwan.</p>
+                <ul>
+                  <li>Chinois / français</li>
+                  <li>Préparation examens</li>
+                  <li>Suivi structuré</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card card--teacher">
+              <div class="teacher__photo">
+                <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Professeure de français et anglais">
+              </div>
+              <div class="teacher__body">
+                <h3>Anna • Français & anglais</h3>
+                <p>Professeure bilingue, spécialisée dans les objectifs scolaires et professionnels.</p>
+                <ul>
+                  <li>Cours en ligne</li>
+                  <li>Conversation & grammaire</li>
+                  <li>Programmes personnalisés</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--contact">
+        <div class="section__inner section__inner--contact">
+          <div class="contact__content">
+            <h2>Prendre contact</h2>
+            <p>
+              Le site pourra proposer un formulaire de demande de cours, une prise de rendez-vous ou un simple contact par e-mail.
+            </p>
+            <p>
+              Tous les textes, visuels et fonctionnalités seront ajustés en fonction de votre projet : langues, types de cours,
+              public visé, moyens de paiement, etc.
+            </p>
+          </div>
+          <form class="contact__form">
+            <label class="field">
+              <span>Nom et prénom</span>
+              <input type="text" placeholder="Nom de l’élève ou du parent" />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" placeholder="exemple@domaine.com" />
+            </label>
+            <label class="field">
+              <span>Langue souhaitée</span>
+              <select>
+                <option>Cambodgien (Khmer)</option>
+                <option>Chinois</option>
+                <option>Français</option>
+                <option>Anglais</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Message</span>
+              <textarea rows="4" placeholder="Expliquez votre niveau actuel et vos objectifs."></textarea>
+            </label>
+            <button type="button" class="btn btn--primary btn--full">Envoyer la demande</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>LinguaNova – plateforme de cours de langues en ligne.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
